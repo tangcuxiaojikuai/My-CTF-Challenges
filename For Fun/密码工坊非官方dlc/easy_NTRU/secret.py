@@ -1,0 +1,1 @@
+flag = b"NSSCTF{Task_1s_to_FinD_where_th3_!!NSSCTF!!_IS_in_thi5_FLAGHhah!}"

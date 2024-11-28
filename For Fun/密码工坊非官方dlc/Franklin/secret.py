@@ -1,0 +1,1 @@
+flag = b"NSSCTF{Rem0Ve_y_4nD_C0mb1n3_HGCD_4nD_Euclid}"

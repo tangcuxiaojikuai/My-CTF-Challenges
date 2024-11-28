@@ -1,0 +1,1 @@
+flag = b"NKCTF{Kn@ps4ck_0F_HyperElliptiCCurve!}"

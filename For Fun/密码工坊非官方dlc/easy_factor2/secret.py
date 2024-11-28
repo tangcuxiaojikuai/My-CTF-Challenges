@@ -1,0 +1,1 @@
+flag = b"NSSCTF{JUST_@pply_Fermat's_factorization_method_W1tH_Brut3F0rce!}"

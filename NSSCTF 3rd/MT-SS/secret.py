@@ -1,0 +1,1 @@
+flag = b"NSSCTF{Bec4us3_0f_LinearXD!!}"

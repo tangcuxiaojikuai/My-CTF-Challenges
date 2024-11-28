@@ -1,0 +1,42 @@
+from Crypto.Util.number import *
+from math import *
+import string
+import gmpy2
+
+table = string.ascii_letters + string.digits + "@?!*"
+
+LENGTH = len(table)
+
+#"flag" in temp or "FLAG" in temp or "f14G" in temp or "7!@9" in temp or "🚩" in temp
+A = factorial(LENGTH-4+1)
+B = factorial(LENGTH-4+1)
+C = factorial(LENGTH-4+1)
+D = factorial(LENGTH-4+1)
+
+AB = factorial(LENGTH-4*2+2)
+AC = 0
+AD = factorial(LENGTH-4*2+2)
+BC = 0
+BD = factorial(LENGTH-4*2+2)
+CD = factorial(LENGTH-4*2+2)
+
+ABC = 0
+ABD = factorial(LENGTH-4*3+3)
+ACD = 0
+BCD = 0
+
+ABCD = 0
+
+p = gmpy2.next_prime(A+B+C+D-AB-AC-AD-BC-BD-CD+ABC+ABD+ACD+BCD-ABCD)
+#7930399977709836210408886944838540258627004066353629452237535203485317857280000000000083
+
+
+n = 10179374723747373757354331803486491859701644330006662145185130847839571647703918266478112837755004588085165750997749893646933873398734236153637724985137304539453062753420396973717
+c = 1388132475577742501308652898326761622837921103707698682051295277382930035244575886211234081534946870195081797116999020335515058810721612290772127889245497723680133813796299680596
+
+q = n // p
+
+print(long_to_bytes(gmpy2.powmod(c,inverse(65537,(p-1)*(q-1)),n)))
+
+
+#WKCTF{How_long_does_it_take_to_run_directly?}

@@ -1,0 +1,15 @@
+from Crypto.Util.number import *
+from random import *
+
+table = "01234567"
+p = getPrime(328)
+flag = b"NSSCTF{" + "".join([choice(table) for i in range(70)]).encode() + b"}"
+c = bytes_to_long(flag) % p
+
+print("p =",p)
+print("c =",c)
+
+'''
+p = 501785758961383005891491265699612686883993041794260611346802080899615437298977076093878384543577171
+c = 327005346153237517234971706274055111857447948791422192829214537757745905845319188257204611848165263
+'''

@@ -1,0 +1,1 @@
+flag = b"NSSCTF{Just_simply_try_t0_divid3_s0m3_f4ct0rs_0f_phi}"

@@ -1,0 +1,1 @@
+flag = "NSSCTF{!!!Hah4H@,H0p3_Y0U_h@ve_fang_In_y0ur_po1Ynomial_5tudY!!}"

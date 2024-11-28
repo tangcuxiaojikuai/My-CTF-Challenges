@@ -1,0 +1,1 @@
+flag = b"catctf{l4gRanG3_@nD_LWE_s@mple!}"

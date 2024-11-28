@@ -1,0 +1,1 @@
+flag = b"NSSCTF{No_idea_of_context_of_flag_XD}"

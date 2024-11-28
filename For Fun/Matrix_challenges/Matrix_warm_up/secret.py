@@ -1,0 +1,1 @@
+flag = b"NSSCTF{F1nd_@_s3cR3t_NUMBER_1s_eAsy_4_U}"

@@ -1,0 +1,1 @@
+flag = b"NSSCTF{M4k3_Us3_0f_M7P_though_M4sK_1s_Non_Printable}"
