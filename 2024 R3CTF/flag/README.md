@@ -88,7 +88,7 @@ We obtained the same result $p=445$.
 
 Then, just apply this approach to the challenge. Without any possible optimizations, this method takes about 10 minutes.
 
-### Exp
+## Exp
 
 get p:
 
@@ -129,7 +129,7 @@ print(long_to_bytes(pow(c,inverse(65537,(p-1)*(q-1)),n)))
 #R3CTF{Oh_Y0u_Found_th3_L4st_fl@g_4nd_H@v3_FUN!}
 ```
 
-### Something else
+## Something else
 
 According to the description:
 
